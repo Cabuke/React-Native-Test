@@ -16,7 +16,7 @@ export default function LoginScreen({ navigation }) {
       } else {
         Alert.alert('Erro', 'Usuário ou senha inválidos');
       }
-    } catch (e) {
+    } catch {
       Alert.alert('Erro', 'Não foi possível ler dados.');
     }
   };
